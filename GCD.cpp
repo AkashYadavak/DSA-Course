@@ -1,3 +1,10 @@
+/*  Relation betw. lcm and gcd
+
+  lcm(a,b) * gcd(a,b) =  a*b
+
+*/
+
+
 #include <iostream>
 
 using namespace std;
