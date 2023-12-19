@@ -16,7 +16,7 @@ int main()
 
 }
 
-// Some types of Macros
+// Four types of Macros
 // ------------------------------------------
 /*
 
