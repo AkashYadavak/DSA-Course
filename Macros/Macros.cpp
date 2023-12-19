@@ -113,7 +113,7 @@ int main()
 
 ===>>> Pair of parentheses immediately after the macro name is necessary.
        If we put a space between the macro name and the parentheses in the macro definition,
-       then the macro will not work.
+       then the macro will NOT work.
 
 Ex: 1
 
