@@ -5,7 +5,7 @@ using namespace std;
 
 
 // T.C: - O(n)
-// S.C: - O(1)
+// S.C: - O(n)   n: size of the string
 
 /*
 bool IsPalindrome(string str)
