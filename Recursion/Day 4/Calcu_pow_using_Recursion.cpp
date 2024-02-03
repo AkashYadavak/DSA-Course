@@ -46,12 +46,17 @@ int pow(int a, int b)
 {
     // Base Case
 
+    if(b == 0)
+    {
+        return 1;
+    }
+
     if(b == 1)
     {
         return a;
     }
 
-    int temp;
+    double temp;
     if(b % 2 == 0)
     {
         temp = pow(a,  b/2);
