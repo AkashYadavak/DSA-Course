@@ -39,6 +39,7 @@ int pow(int a, int b)
 }
 */
 
+// Optimized Recursion for pow calcul.
 // T.C: - O(log n)
 
 int pow(int a, int b)
