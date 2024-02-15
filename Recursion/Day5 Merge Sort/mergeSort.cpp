@@ -3,6 +3,10 @@
 // tab tak todo jab tak vo individual element me naa toot jaye, 
 // uske baad jese toda tha vese jodte jao per ascending order me(or sorted form me).
 
+
+// Time Complexity: - O(n * log n)
+// Space Complexity: - O(n)  because of temp array that we used to merge two sorted array.
+
 #include<iostream>
 
 using namespace std;
