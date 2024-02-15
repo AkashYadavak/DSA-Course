@@ -1,7 +1,7 @@
 // Concept of Merge Sort:
 // Phele pore array ko half-half karke todte jao or 
 // tab tak todo jab tak vo individual element me naa toot jaye, 
-// uske baad jese toda tha vese jodte jao per ascending order me.
+// uske baad jese toda tha vese jodte jao per ascending order me(or sorted form me).
 
 #include<iostream>
 
