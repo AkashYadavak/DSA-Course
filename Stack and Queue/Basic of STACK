@@ -1,0 +1,39 @@
+#The main function of C++ must have a return type int because it is a standard.
+
+#boolalpha
+-> tells ostream
+true(1) -> print "true"
+false(0) -> print "false"
+Usage:- cout << boolalpha
+
+how to remove it?
+cout << noboolalpha
+
+
+
+Topic - Stack in C++ STL (Standard Template Library)
+
+#Creation:- stack<type> stack_name;
+ex:  stack<char> s;
+
+#Insertion:- stack_name.push(data);
+
+ex: s.push('a');
+
+#deletion:- stack_name.pop();
+
+ex: s.pop();
+
+#top_element:- stack_name.top();
+ex: s.top();
+
+#empty:- stack_name.empty();
+
+ex: s.empty();
+
+#size:- stack_name.size();
+
+ex: s.size();
+
+
+
