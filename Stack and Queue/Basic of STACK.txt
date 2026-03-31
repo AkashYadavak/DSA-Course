@@ -1,5 +1,23 @@
 #The main function of C++ must have a return type int because it is a standard.
 
+WE canNOT access the private members directly outside the class.
+BUT a copy constructor can directly access a private member of another object of the same class.
+
+private:
+    T* arr;
+    int capacity;
+    int top;
+
+// Copy Constructort
+    StackArr(const StackArr<T>& s){
+        capacity = s.capacity;
+        arr = new T[capacity];
+        for(int i = 0; i <= s.top; i++){
+            arr[i] = s.arr[i];   // arr is a private memeber
+        }
+        top = s.top;
+    }
+
 #boolalpha
 -> tells ostream
 true(1) -> print "true"
