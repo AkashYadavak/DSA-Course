@@ -1,5 +1,8 @@
 #The main function of C++ must have a return type int because it is a standard.
 
+class -> by default the memeber variables and functions are private.
+struct and union -> by default the access is public.
+
 WE canNOT access the private members directly outside the class.
 BUT a copy constructor can directly access a private member of another object of the same class.
 
